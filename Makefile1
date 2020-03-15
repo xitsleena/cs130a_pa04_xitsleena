@@ -1,0 +1,18 @@
+CXX = g++
+CXXFLAGS = -Wall -Wno-uninitialized -std=c++11
+BINARIES = snl snlt slb
+
+all: snl.out sltest.out slb.out
+
+snl.out: slBoard.cpp
+	$(CXX) $(CXXFLAGS) $^ -o snl
+
+sltest.out: sltest.cpp
+	$(CXX) $(CXXFLAGS) $^ -o snlt
+
+slb.out: slb.cpp
+	$(CXX) $(CXXFLAGS) $^ -o slb
+
+
+clean:
+	/bin/rm -f $(BINARIES) *.o

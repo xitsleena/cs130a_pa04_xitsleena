@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "vector": "cpp",
+        "__node_handle": "cpp",
+        "queue": "cpp",
+        "iostream": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "__tree": "cpp",
+        "map": "cpp",
+        "bitset": "cpp"
+    }
+}
